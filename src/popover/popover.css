@@ -1,0 +1,38 @@
+.popover-title {
+    font-weight: bold;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.popover-content {
+    padding: 10px;
+}
+
+.popover p {
+    display: inline;
+    line-height: 1.5;
+}
+
+.popover {
+    position: absolute;
+    font-family: Arial;
+    font-size: 14px;
+    display: inline-block;
+    border: 1px darkgray solid;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.popover:after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    bottom: -6px;
+    right: 145px;
+    border-bottom: 1px darkgray solid;
+    border-left: 1px darkgray solid;
+    transform: rotate(-45deg);
+    background-color: white;
+}

@@ -1,0 +1,33 @@
+.my-btns {
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+.my-btn {
+    padding: 0.375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    border: none;
+    cursor: pointer;
+}
+
+.my-btn:hover {
+    transform: scale(1.02);
+}
+
+.my-btn:active {
+    transform: scale(0.98);
+}
+
+.my-btn.red {
+    background-color: red;
+}
+
+.my-btn.yellow {
+    background-color: yellow;
+}
+
+.my-btn.green {
+    background-color: green;
+}
